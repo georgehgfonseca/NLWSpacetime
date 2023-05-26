@@ -42,7 +42,7 @@ export default function App() {
     // Save access token to secure storage
     await SecureStore.setItemAsync("token", token);
 
-    router.push("/new");
+    router.push("/memories");
   }
 
   useEffect(() => {
